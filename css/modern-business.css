@@ -592,6 +592,19 @@ button:focus-visible,
   color: rgba(255, 255, 255, 0.86);
 }
 
+.computing-strip a {
+  color: var(--pitt-gold);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+.computing-strip a:hover,
+.computing-strip a:focus {
+  color: #fff;
+}
+
 .home-cta {
   padding: clamp(3.25rem, 6vw, 5rem) 0;
   text-align: center;
